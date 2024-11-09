@@ -1,0 +1,9 @@
+<form>
+    <div>
+        <input type="text"[(ngModel)]="loginobj.EmailId"  name="EmailId" placeholder="Username" />
+    </div>
+    <div>
+        <input type="password" [(ngModel)]="loginobj.Password" name="Password" placeholder="Password" />
+    </div>
+    <button (click)="login()">Login</button>
+</form>
